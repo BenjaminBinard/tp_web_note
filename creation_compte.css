@@ -1,5 +1,13 @@
 body{
-  background-color: lightblue;
+  background-color: white;
+}
+
+form{
+  text-align: center;
+  border: solid;
+  border-color: #051E49;
+  border-width: 3px;
+  background-color:white;
 }
 
 .myButton {
@@ -38,4 +46,66 @@ body{
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+#titre{
+	height:120px;
+	width:90%;
+	background-color:#2E518D;
+	top:0px;
+	left:5%;
+	position:relative;
+	display:inline-block;
+  border: solid;
+  border-color: #051E49;
+  border-width: 3px;
+}
+
+#compte{
+	height:80px;
+	width:90%;
+	background-color:white;
+	top:auto;
+	left:5%;
+	height:50px;
+	position:relative;
+	}
+
+
+#crea_compte{
+	width:90%;
+	background-color:white;
+	top:auto;
+	left:5%;
+	right:auto;
+	height:680px;
+	position:relative;
+	}
+
+
+#pied{
+	bottom:0;
+	left:76px;
+	right:74px;
+	height:50px;
+	position:fixed;
+	text-align:center;
+  border: solid;
+  border-color: #051E49;
+  border-width: 3px;
+  background-color:#2E518D;
+  color: #051E49;
+	}
+
+h1{
+text-align:center;
+font-size: 50px;
+color: #051E49;
+}
+
+
+h4{
+text-align:center;
+font-size: 20px;
+color: #051E49;
 }
