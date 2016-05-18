@@ -1,4 +1,3 @@
 # tp_web_note
-voici notre tp noté !
-Et puis ca
-test
+
+Bienvenu sur notre tp noté de web. Vous trouverez-ci join notre site internet.
