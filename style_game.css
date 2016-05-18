@@ -1,0 +1,73 @@
+#titre{
+	height:120px;
+	width:90%;
+	background-color:#FF0004;
+	top:0px;
+	left:5%;
+	position:relative;
+	display:inline-block;
+}
+
+#compte{
+	height:80px;
+	width:90%;
+	background-color:#FFF004;
+	top:auto;
+	left:5%;
+	height:50px;
+	position:relative;
+	}
+	
+	
+#decouverte{
+	width:17%;
+	background-color:#00FF04;
+	top:auto;
+	left:76px;
+	height:800px;
+	position:absolute;
+	}
+	
+		
+#defilement{
+	width:72.85%;
+	background: url('images/xbox.jpg') no-repeat;
+	background-size: cover;
+	top:auto;
+	left:296px;
+	height:200px;
+	position:relative;
+	}
+	
+#articles{
+	width:72.85%;
+	background-color:#0F0F0F;
+	top:auto;
+	left:296px;
+	height:600px;
+	position:relative;
+	}
+	
+
+#pied{
+	background-color:#888888;
+	bottom:0;
+	left:76px;
+	right:74px;
+	height:50px;
+	position:fixed;
+	text-align:center;
+	}
+	
+h1{
+text-align:center;
+font-size: 50px;
+}
+	
+		
+h4{
+text-align:center;
+font-size: 20px;
+}
+	
+	
