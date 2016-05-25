@@ -10,7 +10,7 @@ form{
   background-color:white;
 }
 
-.myButton {
+.valider {
 	-moz-box-shadow: 0px 14px 14px -7px #b91600;
 	-webkit-box-shadow: 0px 14px 14px -7px #b91600;
 	box-shadow: 0px 14px 14px -7px #b91600;
@@ -34,7 +34,7 @@ form{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #b91600;
 }
-.myButton:hover {
+.valider:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff1e00), color-stop(1, #ff533c));
 	background:-moz-linear-gradient(top, #ff1e00 5%, #ff533c 100%);
 	background:-webkit-linear-gradient(top, #ff1e00 5%, #ff533c 100%);
@@ -43,7 +43,7 @@ form{
 	background:linear-gradient(to bottom, #ff1e00 5%, #ff533c 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1e00', endColorstr='#ff533c',GradientType=0);
 }
-.myButton:active {
+.valider:active {
 	position:relative;
 	top:1px;
 }
@@ -67,7 +67,6 @@ form{
 	background-color:white;
 	top:auto;
 	left:5%;
-	height:50px;
 	position:relative;
 	}
 
@@ -78,7 +77,7 @@ form{
 	top:auto;
 	left:5%;
 	right:auto;
-	height:680px;
+	height:800px;
 	position:relative;
 	}
 
@@ -108,4 +107,54 @@ h4{
 text-align:center;
 font-size: 20px;
 color: #051E49;
+}
+
+#inscription{
+  left: 0px;
+  position: relative;
+
+}
+
+#titre_inscription{
+    font-size: 30px;
+    font-family: fantasy;
+}
+.myButton {
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #476e9e), color-stop(1, #7892c2));
+	background:-moz-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-webkit-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-o-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:-ms-linear-gradient(top, #476e9e 5%, #7892c2 100%);
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#476e9e', endColorstr='#7892c2',GradientType=0);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }

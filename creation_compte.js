@@ -1,9 +1,16 @@
 function submit(){
-  mail();
-  mot_passe();
-  telephone();
-  nom();
+  var compteur=0;
+  compteur=compteur+mail();
+  compteur=compteur+mot_passe();
+  compteur=compteur+telephone();
+  compteur=compteur+nom();
+  compteur=compteur+check();
+
+  if(compteur==5){
+    ouverture();
+  }
 }
+
  function mail(){
    var box=document.getElementById("mail");
    var mail=document.getElementById("mail");
@@ -13,6 +20,7 @@ function submit(){
        box.style.borderStyle="solid";
        box.style.borderColor="green";
        box.style.borderWidth="5px";
+       return 1;
      } else {
        box.style.borderStyle="solid";
        box.style.borderColor="red";
@@ -28,7 +36,10 @@ function submit(){
    taille=taille.length;
 
    if(box==passwordverif1){
-     return 0;
+     passwordverif.style.borderStyle="solid";
+     passwordverif.style.borderColor="green";
+     passwordverif.style.borderWidth="5px";
+     return 1;
    }
    else{
      passwordverif.style.borderStyle="solid";
@@ -43,7 +54,10 @@ function telephone(){
   taille=taille.length;
 
   if(taille==10){
-    return 0;
+    tel.style.borderStyle="solid";
+    tel.style.borderColor="green";
+    tel.style.borderWidth="5px";
+    return 1;
   }
   else{
     tel.style.borderStyle="solid";
@@ -61,9 +75,25 @@ function nom() {
   taille2=taille2.length;
 
   if(taille2>2 && taille>2){
-    return 0;
+    return 1;
   }
   else{
     alert("Veuillez saisir votre nom et prenom");
   }
+}
+
+function check(){
+  var check_button=document.getElementById("condition").checked;
+
+  if(check_button==1){
+    return 1;
+  }
+  else{
+    alert("Merci de lire et accepter nos conditions générales de ventes");
+  }
+}
+
+function ouverture(){
+  alert("Merci pour votre inscription ! Bonne continuation sur Game Store");
+  window.open("index.html");
 }

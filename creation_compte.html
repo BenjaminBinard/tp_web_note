@@ -8,13 +8,19 @@
 </head>
 <body>
   <div id="titre"><h1>Game Store</h1></div>
-  <div id="compte"><p onClick="nouveau()">Nouveau compte</p></div>
+  <div id="compte">
+  </br>
+    <a href="#" class="myButton">Accueil</a>
+    <a href="#" class="myButton" id="inscription">S'inscrire</a>
+    <input type="search" placeholder="Rechercher un produit" name="the_search"></input>
+  </div>
   <div id="crea_compte">
     <form id="form">
-      <p id="inscription">Inscription</p>
+      <p id=titre_inscription>INSCRIPTION</p>
 
       Civilit&eacute;*</br>
-      <input type="text" name="civilite" class="obligatoire"></br>
+      <input type="radio" name="civil">Mme</input>
+      <input type="radio" name="civil">Mr</input></br></br>
 
       Pr&eacute;nom*</br>
       <input type="text" name="civilite" id="prenom" ></br>
@@ -102,15 +108,15 @@
       Choisissez un mot de passe*</br>
       <input type="text" name="civilite" class="obligatoire" id="password"></br>
 
-      Comfirmez ce mot de passe*</br>
+      Confirmez ce mot de passe*</br>
       <input type="text" name="civilite" class="obligatoire" id="password_verif"></br>
 
-      <input type="checkbox" name="condition" id="condition">Oui, j’accepte les Conditions Générales de Vente ainsi </br>que la protection des données de Game Store.*
+      <input type="checkbox" name="condition" id="condition">Oui, j’accepte les Conditions G&eacute;n&eacute;rales de Vente ainsi </br>que la protection des donn&eacute;es de Game Store.*
       </input></br>
-      <input type="checkbox" name="news" id="news">Oui, je veux recevoir par e-mail des infos sur les dernières tendances.</br> Désinscription possible à tout moment.
+      <input type="checkbox" name="news" id="news">Oui, je veux recevoir par e-mail des infos sur les derni&egrave;res tendances.</br> D&eacute;sinscription possible &agrave; tout moment.
       </input></br></br>
 
-      <a class="myButton" onclick="submit()">S'Inscrire</a></br></br></br>
+      <a class="valider" onclick="submit()">S'Inscrire</a></br></br></br>
     </form>
   </div>
   <div id="pied"><p>Nous contacter</p></div>
